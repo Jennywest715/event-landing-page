@@ -1,0 +1,27 @@
+@media only screen and (min-width: 300px) {
+    .column {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        padding: 10px;
+        height: 400px;
+        margin-bottom: 10px;
+    }
+    .column1{
+        display:inline-block;
+        text-align: center;
+        font-size: large;
+        font-family: 'Joan', serif;
+        font-weight: bold;
+        float:left;
+    
+    }
+    .column2{
+        height:530px;
+        width:auto;
+        margin:15px;
+        background-image: url(https://live.staticflickr.com/3241/3102922077_86c3b0ba0a_b.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+}
