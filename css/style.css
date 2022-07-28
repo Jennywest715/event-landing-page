@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Joan&family=Roboto:wght@700&display=swap');
 @media only screen and (min-width: 300px) {
+    body {
+        font-family:'Joan', serif !important;
+    }
     .column {
         display: flex;
         justify-content: space-between;
